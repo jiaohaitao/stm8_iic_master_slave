@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Add_slave	user\iic.h	8;"	macro
+IIC_GPIO_Init	user\iic.c	6;"	function	file:	signature:(void)
+IIC_Master_Init	user\iic.c	13;"	function	signature:(void)
+IIC_Master_Init	user\iic.h	14;"	prototype	signature:(void)
+IIC_Send_Data	user\iic.c	30;"	function	signature:(u8 *Data_Buff, u8 Length)
+IIC_Send_Data	user\iic.h	15;"	prototype	signature:(u8 *Data_Buff, u8 Length)
+IIC_Start	user\iic.h	11;"	macro
+IIC_Stop	user\iic.h	12;"	macro
+NonHandledInterrupt	stm8_interrupt_vector.c	12;"	function	signature:(void)
+Send_Data_Buff	main.c	5;"	variable
+System_Config	main.c	20;"	function	signature:(void)
+System_Config	main.c	7;"	prototype	file:	signature:(void)
+__IIC_H__	user\iic.h	3;"	macro
+_stext	stm8_interrupt_vector.c	20;"	prototype	file:
+_vectab	stm8_interrupt_vector.c	22;"	variable
+interrupt_handler	stm8_interrupt_vector.c	9;"	member	struct:interrupt_vector	file:
+interrupt_handler_t	stm8_interrupt_vector.c	5;"	typedef	file:
+interrupt_instruction	stm8_interrupt_vector.c	8;"	member	struct:interrupt_vector	file:
+interrupt_vector	stm8_interrupt_vector.c	7;"	struct	file:
+main	main.c	9;"	function
+myself_address	user\iic.h	9;"	macro
+u16	user\iic.h	6;"	macro
+u8	user\iic.h	5;"	macro

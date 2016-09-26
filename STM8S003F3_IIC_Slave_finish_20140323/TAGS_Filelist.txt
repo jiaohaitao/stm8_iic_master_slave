@@ -1,0 +1,6 @@
+main.c
+stm8_interrupt_vector.c
+user\iic.c
+user\iic.h
+c:\program files (x86)\cosmic\cxstm8_32k\hstm8\iostm8s.h
+c:\program files (x86)\cosmic\cxstm8_32k\hstm8\mods0.h
