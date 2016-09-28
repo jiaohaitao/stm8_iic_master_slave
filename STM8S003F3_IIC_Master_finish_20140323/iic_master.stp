@@ -129,9 +129,9 @@ Int.1=0
 
 [Root.Config.0.Settings.7]
 String.2.0=mapinfo $(OutputPath)$(TargetSName).map
-String.3.0=chex -o $(OutputPath)$(TargetSName).s19 $(OutputPath)$(TargetSName).sm8
+String.3.0=chex -fi -o $(OutputPath)$(TargetSName).hex $(OutputPath)$(TargetSName).sm8
 String.3.1=mapinfo $(OutputPath)$(TargetSName).map
-String.6.0=2016,9,25,16,12,43
+String.6.0=2016,9,26,20,22,32
 
 [Root.Config.0.Settings.8]
 String.2.0=Performing Custom Build on $(InputFile)

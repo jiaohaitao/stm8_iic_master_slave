@@ -11,13 +11,13 @@ ExternDep= main.c "C:\Program Files (x86)\COSMIC\CXSTM8_32K\HSTM8\mods0.h"  "C:\
 ExternDep= main.c "C:\Program Files (x86)\COSMIC\CXSTM8_32K\Hstm8\mods0.h"  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\Hstm8\iostm8s.h" user\iic.h
 
 [Root.Source Files.stm8_interrupt_vector.c.Config.0]
-ExternDep= stm8_interrupt_vector.c  "E:\Program Files\COSMIC\CXSTM8_32K\Hstm8\mods0.h"
+ExternDep= stm8_interrupt_vector.c  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\HSTM8\mods0.h"
 
 [Root.Source Files.stm8_interrupt_vector.c.Config.1]
 ExternDep= stm8_interrupt_vector.c  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\Hstm8\mods0.h"
 
 [Root.Source Files.user\iic.c.Config.0]
-ExternDep= user\iic.c "E:\Program Files\COSMIC\CXSTM8_32K\Hstm8\mods0.h"  user\iic.h "E:\Program Files\COSMIC\CXSTM8_32K\Hstm8\STM8S003F3P.h"  "E:\Program Files\COSMIC\CXSTM8_32K\Hstm8\STM8S103F.h"
+ExternDep= user\iic.c  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\HSTM8\mods0.h" user\iic.h  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\HSTM8\iostm8s.h"
 
 [Root.Source Files.user\iic.c.Config.1]
 ExternDep= user\iic.c  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\Hstm8\mods0.h" user\iic.h  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\Hstm8\iostm8s.h"

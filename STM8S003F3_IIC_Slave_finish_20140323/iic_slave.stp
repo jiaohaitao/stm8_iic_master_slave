@@ -153,6 +153,7 @@ Int.108=1
 String.6.0=2014,3,4,15,27,15
 String.100.0=$(TargetFName)
 String.101.0=
+String.102.0=
 String.103.0=.\;user;
 
 [Root.Config.1.Settings.2]
@@ -185,7 +186,7 @@ String.3.0=clnk $(ToolsetLibOpts) -o $(OutputPath)$(TargetSName).sm8 -fakeIntege
 String.3.1=cvdwarf $(OutputPath)$(TargetSName).sm8
 String.4.0=$(OutputPath)$(TargetFName)
 String.5.0=$(OutputPath)$(ProjectSFile).elf $(OutputPath)$(TargetSName).map
-String.6.0=2016,9,25,16,21,0
+String.6.0=2016,9,26,20,20,58
 String.100.0=
 String.101.0=crtsi.st7
 String.102.0=+seg .const -b 0x8080 -m 0x1f80 -n .const -it
@@ -208,8 +209,9 @@ Int.1=0
 
 [Root.Config.1.Settings.7]
 String.2.0=mapinfo $(OutputPath)$(TargetSName).map
-String.3.0=chex -o $(OutputPath)$(TargetSName).s19 $(OutputPath)$(TargetSName).sm8
-String.6.0=2016,9,25,16,17,30
+String.3.0=chex -fi -o $(OutputPath)$(TargetSName).hex $(OutputPath)$(TargetSName).sm8
+String.3.1=mapinfo $(OutputPath)$(TargetSName).map
+String.6.0=2016,9,26,20,23,12
 
 [Root.Config.1.Settings.8]
 String.2.0=Performing Custom Build on $(InputFile)

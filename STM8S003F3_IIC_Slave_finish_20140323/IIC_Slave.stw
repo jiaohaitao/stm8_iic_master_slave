@@ -8,5 +8,5 @@ Filename=iic_slave.stp
 Dependencies=
 [Options]
 ActiveProject=iic_slave
-ActiveConfig=Release
+ActiveConfig=Debug
 AddSortedElements=1

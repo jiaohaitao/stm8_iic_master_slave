@@ -8,5 +8,5 @@ Filename=iic_master.stp
 Dependencies=
 [Options]
 ActiveProject=iic_master
-ActiveConfig=Debug
+ActiveConfig=Release
 AddSortedElements=1

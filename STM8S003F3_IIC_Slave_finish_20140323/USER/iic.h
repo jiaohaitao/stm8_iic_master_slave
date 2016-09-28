@@ -6,7 +6,7 @@
 #define u16 unsigned int
 
 #define Rec_Length				20
-#define myself_address		0xa0
+#define myself_address		0xA2//x51
 
 #define IIC_Start()		I2C_CR2 |= 0x01
 #define IIC_Stop()		I2C_CR2 |= 0x02
